@@ -4,7 +4,7 @@ def szogFok(sz, m1, m2):
     return math.degrees(math.acos((m1**2 + m2**2 - sz**2)/(2*m1*m2)))
 
 #0 
-print("Háromszögek feoldogozása fájlokban.")
+print("Háromszögek feldolgozása fájlokban.")
 
 #1
 finp = open("haromszogek.txt", mode="rt", encoding="utf-8")
